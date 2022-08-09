@@ -54,7 +54,7 @@ const sendProdView = () => {
     })
 }
 
-const sendUserId = ()=> {
+const sendUserId = () => {
     if (/persistUserId/.test(window.location.href)) {
         try {
             const anonId = location.href.split("persistUserId=")[1];
